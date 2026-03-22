@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin</title>
+</head>
+<body style="background:black;color:white;text-align:center">
+
+<h1>Admin Panel</h1>
+
+<h2 id="users"></h2>
+<h2 id="chats"></h2>
+
+<script>
+fetch("http://localhost:3000/admin/stats")
+.then(res => res.json())
+.then(data => {
+  document.getElementById("users").innerText = "Users: " + data.users;
+  document.getElementById("chats").innerText = "Chats: " + data.totalChats;
+});
+</script>
+
+</body>
+</html>
