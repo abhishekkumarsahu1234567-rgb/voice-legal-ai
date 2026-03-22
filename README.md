@@ -19,7 +19,8 @@ An AI-powered voice-based legal assistant that helps people understand their leg
 Designed for people who cannot afford lawyers and need quick legal guidance.
 
 ## 📸 Demo
-(Add screenshots here)
+(<img width="1890" height="873" alt="Screenshot 2026-03-22 174611" src="https://github.com/user-attachments/assets/df2b506f-54bd-4dec-a5a6-363c92a12718" />
+)
 
 ## 🌐 Future Scope
 - GPT integration
